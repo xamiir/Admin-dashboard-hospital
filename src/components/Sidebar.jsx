@@ -5,14 +5,11 @@ import {
   FaHome,
   FaCalendarCheck,
   FaUserMd,
-  FaMosque,
+  FaWarehouse,
   FaAmbulance,
   FaCcMastercard,
 } from "react-icons/fa";
-
-//  import  fa-cc-mastercard  from FA icons
-//import { FaCcMastercard } from "react-icons/fa";
-
+// import departments icon fa icon
 export default function Sidebar() {
   return (
     <Fragment>
@@ -24,7 +21,7 @@ export default function Sidebar() {
           <div className="flex items-center justify-center">
             <img
               className="h-8 w-8 rounded-full object-cover"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkQdZn8r9J-MQ8_DwiVN4-XbkhUw7YeI_gNw&usqp=CAU"
+              src="https://media.gettyimages.com/id/1312706413/photo/modern-hospital-building.jpg?s=612x612&w=gi&k=20&c=1-EC4Mxf--5u4ItDIzrIOrduXlbKRnbx9xWWtiifrDo="
               alt="profile"
             />
             <span className="ml-3 text-xl font-bold">Hospital system</span>
@@ -44,7 +41,7 @@ export default function Sidebar() {
 
             <li className="px-5">
               <Link
-                to="/doctors"
+                to="/appointments"
                 className="flex items-center px-2 py-2 text-sm font-medium leading-snug text-white rounded-md dark-mode:text-gray-200 hover:bg-gray-700 dark-mode:hover:bg-white"
               >
                 <FaCalendarCheck className="w-5 h-5" />
@@ -66,13 +63,13 @@ export default function Sidebar() {
                 to="/departments"
                 className="flex items-center px-2 py-2 text-sm font-medium leading-snug text-white rounded-md dark-mode:text-gray-200 hover:bg-gray-700 dark-mode:hover:bg-white"
               >
-                <FaMosque className="w-5 h-5" />
+                <FaWarehouse className="w-5 h-5" />
                 <span className="ml-2">Departments </span>
               </Link>
             </li>
             <li className="px-5">
               <Link
-                to="/doctors"
+                to="/patients"
                 className="flex items-center px-2 py-2 text-sm font-medium leading-snug text-white rounded-md dark-mode:text-gray-200 hover:bg-gray-700 dark-mode:hover:bg-white"
               >
                 <FaAmbulance className="w-5 h-5" />
@@ -81,7 +78,7 @@ export default function Sidebar() {
             </li>
             <li className="px-5">
               <Link
-                to="/doctors"
+                to="/payments"
                 className="flex items-center px-2 py-2 text-sm font-medium leading-snug text-white rounded-md dark-mode:text-gray-200 hover:bg-gray-700 dark-mode:hover:bg-white"
               >
                 <FaCcMastercard className="w-5 h-5" />

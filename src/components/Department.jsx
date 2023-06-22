@@ -26,7 +26,7 @@ const Department = () => {
 
         setImage("");
         setOpen(false);
-        toast.success("Doctor added successfully");
+        toast.success("Departments  added successfully");
       }
     } else {
       const newData = { name, image };
@@ -42,14 +42,14 @@ const Department = () => {
       setImage("");
       setOpen(false);
       setEdit(false);
-      toast.success("Doctor updated successfully");
+      toast.success("Departments updated successfully");
     }
   };
 
   const handleDelete = (index) => {
     const newData = Department.filter((idex, i) => i !== index);
     setDepartment(newData);
-    toast.success("Doctor deleted successfully");
+    toast.success(" Departments  deleted successfully");
   };
 
   const handleEdit = (index) => {
