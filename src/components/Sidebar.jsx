@@ -24,7 +24,7 @@ export default function Sidebar() {
               src="https://media.gettyimages.com/id/1312706413/photo/modern-hospital-building.jpg?s=612x612&w=gi&k=20&c=1-EC4Mxf--5u4ItDIzrIOrduXlbKRnbx9xWWtiifrDo="
               alt="profile"
             />
-            <span className="ml-3 text-xl font-bold">Hospital system</span>
+            <span className="ml-3 text-xl font-bold">HOSPITAL SYSTEM</span>
           </div>
         </div>
         <div className="flex flex-col justify-between flex-1 h-0 overflow-y-auto">
